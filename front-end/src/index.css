@@ -1,0 +1,29 @@
+/* fonts */
+body {
+  font-family: "lato", sans-serif;
+}
+
+/* global rules */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+.h-100 {
+  height: 100vh;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .col-12 {
+  width: 100%;
+}
+
+.row .col-6 {
+  width: 50%;
+}

@@ -1,0 +1,25 @@
+.btn {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 13px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: orange;
+  /* background: linear-gradient(to right, orange, white); */
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: white;
+  scale: 1.05;
+  color: orange;
+  box-shadow: 0 0 12px orangered;
+}
